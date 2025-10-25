@@ -9,7 +9,7 @@ Open a new terminal in ros2_ws and source the setup script:
 ```bash
 source install/setup.bash
 ```
-Open another terminal and launch the armando_display.launch.py file:
+Open another terminal in ros2_ws and launch the armando_display.launch.py file:
 ```bash
 ros2 launch armando_description armando_display.launch.py
 ```
