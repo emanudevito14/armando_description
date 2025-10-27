@@ -14,6 +14,7 @@ source install/setup.bash
 Open another terminal in ros2_ws and launch the armando_world.launch.py file:
 ```bash
 ros2 launch armando_description armando_hardware.launch.py
+```
 In the first terminal 
 ```bash
 ros2 control list_controllers
