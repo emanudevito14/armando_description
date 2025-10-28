@@ -3,7 +3,7 @@ Place armando_description in ros2_ws/src.
 
 In ros2_ws/src
 ```bash
-git clone --single-branch --branch point2_b_c https://github.com/emanudevito14/armando_description.git
+git clone --single-branch --branch point3 https://github.com/emanudevito14/armando_description.git
 ```
 In ros2_ws:
 ```bash
