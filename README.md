@@ -19,3 +19,4 @@ Open new terminal
 ```bash
 ros2 run rqt_image_view rqt_image_view
 ```
+next to refresh symbol select /videocamera
