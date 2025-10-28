@@ -47,7 +47,7 @@ def generate_launch_description():
         output='screen',
         arguments=['-topic', 'robot_description', 
                    '-name', 'armando', 
-                   '-allow_renaming', 'true',],
+                   '-allow_renaming', 'true','-z','0.5'],
     )
     ign = [gazebo_ignition, gz_spawn_entity]
     # --- Controllers 
