@@ -1,5 +1,7 @@
-Create a folder named armando_description and put these files and folders into it.
-Place armando_description in ros2_ws/src.
+In ros2_ws/src
+```bash
+git clone --single-branch --branch point1 https://github.com/emanudevito14/armando_description.git
+```
 
 In ros2_ws, open a terminal and build the package:
 ```bash
