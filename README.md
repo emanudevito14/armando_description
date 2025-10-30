@@ -1,11 +1,15 @@
-In ros2_ws/src
+Open terminal and in ros2_ws/src
 ```bash
+cd ~/ros2_ws/src
 git clone --single-branch --branch point2_a https://github.com/emanudevito14/armando_description.git
 ```
 
 Extract armando_gazebo from armando_description and place in ros2_ws/src.
+```bash
+mv armando_gazebo ..
 
-In ros2_ws, open a terminal and build the package:
+```
+In ros2_ws build the package:
 ```bash
 export IGN_GAZEBO_RESOURCE_PATH=$IGN_GAZEBO_RESOURCE_PATH:~/ros2_ws/src/armando_gazebo/meshes
 colcon build --packages-select armando_gazebo
