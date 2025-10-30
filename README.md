@@ -1,4 +1,9 @@
-Place armando_gazebo in ros2_ws/src.
+In ros2_ws/src
+```bash
+git clone --single-branch --branch point1 https://github.com/emanudevito14/armando_description.git
+```
+
+Extract armando_gazebo from armando_description and place in ros2_ws/src.
 
 In ros2_ws, open a terminal and build the package:
 ```bash
