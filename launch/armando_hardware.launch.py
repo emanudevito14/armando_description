@@ -79,14 +79,25 @@ def generate_launch_description():
         )
     )
 
-   
-    
+    bridge_camera = Node(
+    package='ros_ign_bridge',
+    executable='parameter_bridge',
+    arguments=[
+        '/camera@sensor_msgs/msg/Image@gz.msgs.Image',
+        '/camera/camera_info@sensor_msgs/msg/CameraInfo@gz.msgs.CameraInfo',
+        '--ros-args',
+        '-r', '/camera:=/videocamera',
+        
+    ],
+    output='screen'
+)
 
     nodes_to_start = [
         robot_state_publisher_node,
         *ign,
         delay_joint_traj_controller,
-        delay_joint_state_broadcaster
+        delay_joint_state_broadcaster,
+        bridge_camera
     ]
 
     return LaunchDescription(declared_arguments + nodes_to_start)
