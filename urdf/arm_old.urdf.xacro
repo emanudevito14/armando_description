@@ -5,7 +5,9 @@
   <material name="red">
     <color rgba="1 0 0 1"/>
   </material>
-
+  <material name="blu">
+    <color rgba="0 0 1 1"/>
+  </material>
 
   <link name="base_link">
     <visual>
