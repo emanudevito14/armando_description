@@ -1,6 +1,6 @@
 In ros2_ws/src
 ```bash
-git clone --single-branch --branch point1 https://github.com/emanudevito14/armando_description.git
+git clone --single-branch --branch point2_a https://github.com/emanudevito14/armando_description.git
 ```
 
 Extract armando_gazebo from armando_description and place in ros2_ws/src.
