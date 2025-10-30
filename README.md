@@ -1,5 +1,4 @@
-Create folder named armando_description and putting all files and folders into it.
-Place armando_description in ros2_ws/src.
+
 
 In ros2_ws/src
 ```bash
